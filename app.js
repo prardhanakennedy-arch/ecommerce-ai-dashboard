@@ -1,5 +1,5 @@
 const { useState } = React;
-const { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } = Recharts;
+const { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } = window.Recharts;
 
 function EcommerceAIDashboard() {
   const [url, setUrl] = useState('');
